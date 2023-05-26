@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Chakra+Petch&family=Lexend&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css');
+
+body {
+    background: rgba(237, 237, 237, 0.845);
+    margin: 0;
+    padding: 0;
+}
+
+.arvo {
+    font-family: 'Arvo', serif;
+}
+
+.lexend {
+    font-family: 'Lexend', sans-serif;
+}
+
+h2 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+p,
+h6 {
+    font-family: 'Lexend', sans-serif;
+}
+
+button {
+    font-family: 'Lexend', sans-serif;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+header {
+
+    color: #fff;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(149deg, rgba(0, 0, 0, 1) 0%, rgba(51, 34, 34, 1) 50%, rgba(143, 62, 62, 1) 100%);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+
+}
+
+img {
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+img:hover {
+    transform: scale(108%);
+}
+
+.product img {
+    width: 100%;
+}
+
+.cart {
+    width: 800px;
+    padding: 10px;
+    border: 1px solid rgba(237, 237, 237, 0.845);
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#total-price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#checkout-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.gg-shopping-cart {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 21px;
+    background:
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat -1px 6px/18px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 6px 14px/11px 2px,
+        linear-gradient(to left, currentColor 12px,
+            transparent 0) no-repeat 0 2px/4px 2px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 12px 17px/4px 4px,
+        radial-gradient(circle, currentColor 60%,
+            transparent 40%) no-repeat 6px 17px/4px 4px
+}
